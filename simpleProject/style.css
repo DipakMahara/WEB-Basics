@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.left img {
+  margin-right: 20px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border-radius: none;
+}
+
+.left h2 {
+  font-size: 1.9rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.right ul {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  list-style: none;
+}
+
+.right ul li {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.hero-section {
+  width: 100%;
+  height: 40dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.title p {
+  font-size: 1.3rem;
+  margin-top: 5px;
+  margin-left: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about-section {
+  display: flex;
+  padding: 30px 100px;
+  justify-content: space-between;
+}
+
+.projects {
+  padding: 0 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.projects h1,
+.experience h1,
+.qualification h1 {
+  font-size: 2.2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 30px;
+}
+
+.projects ul {
+  list-style: none;
+}
+
+.projects ul li {
+  font-size: 1.3rem;
+  padding: 5px 0;
+  margin: 8px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 40px;
+}
+
+.experience {
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  padding: 0 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.experience,
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+.disc p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.disc {
+  padding-bottom: 30px;
+}
+
+.disc a {
+  font-size: 1.1rem;
+}
+
+.padd-botton {
+  padding-bottom: 50px;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+.qualification {
+  padding: 0px 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.qualification p {
+  font-size: 1.4rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+}
+
+.qualification h6 {
+  font-size: 1.55rem;
+  margin-bottom: 15px;
+}
+
+.qualification ul {
+  list-style-type: none;
+  /* padding-left: 0; */
+}
+
+.qualification ul li::marker {
+  content: "-";
+  color: black;
+  font-size: 2rem;
+}
+
+.qualification ul li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.review-section {
+  margin: 30px 100px;
+}
+
+.review-section h2 {
+  font-size: 1.7rem;
+  margin: 10px 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.reviews {
+  border: none;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  height: 100%;
+}
+
+.mar-left {
+  margin-left: 80px;
+}
+
+.review-item {
+  padding: 20px;
+  border-radius: 50px;
+  border: 1px solid black;
+  max-width: 350px;
+}
+
+.mar-rig {
+  margin-right: 20px;
+}
+
+.review-item p {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.review-item span {
+  font-size: 1.3rem;
+  color: rgb(204, 204, 204);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 100px;
+}
+
+footer p {
+  font-size: 1.5rem;
+
+}
