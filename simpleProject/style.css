@@ -46,7 +46,7 @@
 
 .hero-section {
   width: 100%;
-  height: 40dvh;
+  height: 75dvh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,14 +54,14 @@
 }
 
 .title h1 {
-  font-size: 3.5rem;
+  font-size: 3.9rem;
   font-weight: bold;
 }
 
 .title p {
   font-size: 1.3rem;
-  margin-top: 5px;
-  margin-left: 30px;
+  margin-top: 20px;
+  margin-left: 90px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -80,7 +80,7 @@
 .projects h1,
 .experience h1,
 .qualification h1 {
-  font-size: 2.2rem;
+  font-size: 2.8rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 30px;
 }
@@ -90,16 +90,14 @@
 }
 
 .projects ul li {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   padding: 5px 0;
   margin: 8px 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  line-height: 40px;
+  line-height: 45px;
 }
 
 .experience {
-  border-right: 2px solid black;
-  border-left: 2px solid black;
   padding: 0 30px;
   width: 100%;
   height: 100%;
@@ -107,22 +105,23 @@
 
 .experience,
 .title {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   margin-bottom: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif !important;
 }
 
 .disc p {
-  font-size: 1.1rem;
+  font-size: 1.6rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 20px;
 }
 
 .disc {
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 
 .disc a {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .padd-botton {
@@ -130,7 +129,7 @@
 }
 
 hr {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .qualification {
@@ -140,13 +139,13 @@ hr {
 }
 
 .qualification p {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 20px;
 }
 
 .qualification h6 {
-  font-size: 1.55rem;
+  font-size: 1.7rem;
   margin-bottom: 15px;
 }
 
@@ -158,42 +157,42 @@ hr {
 .qualification ul li::marker {
   content: "-";
   color: black;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .qualification ul li {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   font-weight: 500;
-  line-height: 20px;
+  line-height: 40px;
 }
 
 .review-section {
-  margin: 30px 100px;
+  margin: 80px 100px;
 }
 
 .review-section h2 {
-  font-size: 1.7rem;
-  margin: 10px 20px;
+  font-size: 2.5rem;
+  margin: 70px 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .reviews {
   border: none;
-  padding: 10px;
+  padding: 20px;
   width: 100%;
   display: flex;
   height: 100%;
 }
 
 .mar-left {
-  margin-left: 80px;
+  margin-left: 90px;
 }
 
 .review-item {
   padding: 20px;
   border-radius: 50px;
   border: 1px solid black;
-  max-width: 350px;
+  max-width: 400px;
 }
 
 .mar-rig {
@@ -201,23 +200,23 @@ hr {
 }
 
 .review-item p {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
 }
 
 .review-item span {
-  font-size: 1.3rem;
-  color: rgb(204, 204, 204);
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
 }
 
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 70px 100px;
+  margin: 100px;
 }
 
 footer p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 
 }
